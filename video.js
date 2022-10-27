@@ -18,7 +18,7 @@ console.log('ml5 version:', ml5.version);
 
 // Initialize the Image Classifier method with MobileNet
 //classifier = ml5.imageClassifier('https://teachablemachine.withgoogle.com/models/JACkTMciY/model.json',modelLoaded);
-classifier = ml5.imageClassifier('https://teachablemachine.withgoogle.com/models/3p1zcmVdQ/model.json',modelLoaded);
+classifier = ml5.imageClassifier('https://teachablemachine.withgoogle.com/models/gAFE2b2NL/model.json',modelLoaded);
 
 // When the model is loaded
 function modelLoaded() {
