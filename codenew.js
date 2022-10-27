@@ -1,7 +1,7 @@
 function start()
 {
   navigator.mediaDevices.getUserMedia({ audio: true, video:false});
-  classifier = ml5.soundClassifier('https://teachablemachine.withgoogle.com/models/c8hOtZEWK/model.json', { probabilityThreshold: 0.7 } ,modelReady);
+  classifier = ml5.soundClassifier('https://teachablemachine.withgoogle.com/models/2OzedN-5B/model.json', { probabilityThreshold: 0.7 } ,modelReady);
 }
 
 function modelReady(){
